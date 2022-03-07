@@ -46,6 +46,9 @@ public class Time
 		System.out.println("Total Seconds = " + totalSeconds); 
 	}
 
+	
+	
+	
 	public static int getTotalSeconds(String time)throws NumberFormatException, StringIndexOutOfBoundsException {
 		
 		int hours = getTotalHours(time);
