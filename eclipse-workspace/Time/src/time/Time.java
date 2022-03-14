@@ -44,9 +44,11 @@ public class Time
 		 */
 		int totalSeconds = getTotalSeconds("10:10:10");    
 		System.out.println("GitHub Total Seconds = " + totalSeconds); 
-		
+		//edited
 		
 	}
+	
+	
 	
 	
 	
