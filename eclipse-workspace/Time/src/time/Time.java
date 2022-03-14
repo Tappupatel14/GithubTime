@@ -44,6 +44,7 @@ public class Time
 		 */
 		int totalSeconds = getTotalSeconds("10:10:10");    
 		System.out.println("GitHub Total Seconds = " + totalSeconds); 
+		
 	}
 	
 	public static int getTotalSeconds(String time)throws NumberFormatException, StringIndexOutOfBoundsException {
