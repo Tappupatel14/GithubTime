@@ -42,7 +42,7 @@ public class Time
 		 * JOptionPane.ERROR_MESSAGE); } catch(Exception e) {
 		 * System.out.println("An unexpected Exception occurred"); }
 		 */
-		int totalSeconds = getTotalSeconds("10:10:10");
+		int totalSeconds = getTotalSeconds("10:10:10");    
 		System.out.println("GitHub Total Seconds = " + totalSeconds); 
 	}
 	
