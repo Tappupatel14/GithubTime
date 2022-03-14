@@ -42,12 +42,9 @@ public class Time
 		 * JOptionPane.ERROR_MESSAGE); } catch(Exception e) {
 		 * System.out.println("An unexpected Exception occurred"); }
 		 */
-		int totalSeconds = getTotalSeconds("10:10:10");
+		int totalSeconds = getTotalSeconds("GitHub 10:10:10");
 		System.out.println("Total Seconds = " + totalSeconds); 
 	}
-
-	
-	
 	
 	public static int getTotalSeconds(String time)throws NumberFormatException, StringIndexOutOfBoundsException {
 		
